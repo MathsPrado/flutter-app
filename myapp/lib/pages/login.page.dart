@@ -15,7 +15,7 @@ class LoginPage extends StatelessWidget {
             SizedBox(
               width: 128,
               height: 128,
-              child: Image.asset("assets/logo.png"),
+              child: Image.asset("assets/map1.png"),
             ), 
             SizedBox(
               height: 20, 
@@ -106,7 +106,7 @@ class LoginPage extends StatelessWidget {
                       ),
                       Container(
                         child: SizedBox(
-                          child: Image.asset("assets/bone.png"),
+                          child: Image.asset("assets/map.png"),
                         width: 38,
                        height: 38,
                         ),
@@ -121,45 +121,6 @@ class LoginPage extends StatelessWidget {
                       ),
                     );
                   },
-                ),
-              ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Container(
-              height: 60,
-              alignment: Alignment.centerLeft,
-              decoration: BoxDecoration(
-                color: Color(0xFF3C5A99),
-                borderRadius: BorderRadius.all(
-                  Radius.circular(5),
-                ),
-              ),
-              child: SizedBox.expand(
-                child: FlatButton(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      Text(
-                        "Login com Facebook",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                          fontSize: 20,
-                        ),
-                        textAlign: TextAlign.left,
-                      ),
-                      Container(
-                        child: SizedBox(
-                          child: Image.asset("assets/fb-icon.png"),
-                          height: 38,
-                          width: 38,
-                        ),
-                      )
-                    ],
-                  ),
-                  onPressed: () {},
                 ),
               ),
             ),
